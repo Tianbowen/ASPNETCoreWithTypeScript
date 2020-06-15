@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noEmitOnError": true, //如果报告了任何错误，请不要发出输出。
+        "noImplicitAny": true, //在隐any式类型的表达式和声明上引发错误。
+        "sourceMap": true, //生成相应的.map文件。
+        "target": "es6"    //指定ECMAScript目标版本。              
+    },
+    "files": [
+        "./app.ts"
+    ],
+    "compileOnSave": true
+}

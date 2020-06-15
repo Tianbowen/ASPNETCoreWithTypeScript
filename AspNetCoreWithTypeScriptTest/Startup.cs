@@ -28,6 +28,9 @@ namespace AspNetCoreWithTypeScriptTest
 
             app.UseRouting();
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
